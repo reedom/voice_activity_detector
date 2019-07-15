@@ -1,0 +1,53 @@
+PODS:
+  - audio (0.0.1):
+    - Flutter
+  - DownloadingFileAsset (0.1.0):
+    - DPUTIUtil
+  - DPUTIUtil (1.0)
+  - Flutter (1.0.0)
+  - libfvad (0.1.0)
+  - path_provider (0.0.1):
+    - Flutter
+  - voice_activity_detector (0.0.1):
+    - DownloadingFileAsset
+    - Flutter
+    - VoiceActivityDetector
+  - VoiceActivityDetector (0.2.0):
+    - libfvad (~> 0.1.0)
+
+DEPENDENCIES:
+  - audio (from `.symlinks/plugins/audio/ios`)
+  - Flutter (from `.symlinks/flutter/ios`)
+  - path_provider (from `.symlinks/plugins/path_provider/ios`)
+  - voice_activity_detector (from `.symlinks/plugins/voice_activity_detector/ios`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - DownloadingFileAsset
+    - DPUTIUtil
+    - libfvad
+    - VoiceActivityDetector
+
+EXTERNAL SOURCES:
+  audio:
+    :path: ".symlinks/plugins/audio/ios"
+  Flutter:
+    :path: ".symlinks/flutter/ios"
+  path_provider:
+    :path: ".symlinks/plugins/path_provider/ios"
+  voice_activity_detector:
+    :path: ".symlinks/plugins/voice_activity_detector/ios"
+
+SPEC CHECKSUMS:
+  audio: 6248a8deab3e7b361aed465b1568bac4515b174a
+  DownloadingFileAsset: a3c97aa9250050d7e572d43a1011043d2cef2394
+  DPUTIUtil: ec7d6a9521e76ff9e66c8ffc2c524f73466387c9
+  Flutter: 58dd7d1b27887414a370fcccb9e645c08ffd7a6a
+  libfvad: e746a80f89355df888c454284141bbb41adfdc95
+  path_provider: f96fff6166a8867510d2c25fdcc346327cc4b259
+  voice_activity_detector: ed8a42d014beeaba7cda70bc4a27e236750be0e4
+  VoiceActivityDetector: 588a9da851134913093bbdd05061e17394648672
+
+PODFILE CHECKSUM: b6a0a141693093b304368d08511b46cf3d1d0ac5
+
+COCOAPODS: 1.7.4

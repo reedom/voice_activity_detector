@@ -1,0 +1,21 @@
+name: voice_activity_detector
+description: WebRTC based voice activity detection.
+version: 0.1.0
+author: HANAI, Tohru <tohru@reedom.com>
+homepage: https://github.com/reedom/voice_activity_detector
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  plugin:
+    androidPackage: com.reedom.voice_activity_detector
+    pluginClass: VoiceActivityDetectorPlugin
